@@ -1,6 +1,6 @@
 [build]
-  publish = "rainbow/public"
-  command = "cd rainbow && hugo --gc --themes ../.."
+  publish = "public"
+  command = "hugo --gc --themes ../.."
   
 [build.environment]
   HUGO_VERSION = "0.73.0"
