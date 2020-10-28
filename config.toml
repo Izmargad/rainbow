@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://examplesite.com"
+baseURL = "https://dazzling-poincare-7fdaf8.netlify.app"
 languageCode = "en-us"
 title = "Rainbow Reptiles | News Web Site"
 theme = "liva-hugo"
