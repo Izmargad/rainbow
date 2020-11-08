@@ -3,9 +3,9 @@ categories = ["Hygiene"]
 date = 2019-10-29T04:07:47Z
 description = "this is meta description"
 draft = true
-image = "images/post/post-3.jpg"
+image = "images/post/post-6.jpg"
 tags = ["Game", "HTML", "Python", "New"]
-title = "Size Matters!-(copy)"
+title = "Another Title for Sneks"
 type = "post"
 
 +++
@@ -25,9 +25,9 @@ type = "post"
 
 ##### Emphasis
 
-Emphasis, aka italics, with *asterisks* or _underscores_.
+Emphasis, aka italics, with _asterisks_ or _underscores_.
 
-Strong emphasis, aka bold, with **asterisks** or __underscores__.
+Strong emphasis, aka bold, with **asterisks** or **underscores**.
 
 Combined emphasis with **asterisks and _underscores_**.
 
@@ -41,23 +41,19 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 
 [I'm an inline-style link with title](https://www.google.com "Google's Homepage")
 
-[I'm a reference-style link][Arbitrary case-insensitive reference text]
+[I'm a reference-style link](https://www.mozilla.org)
 
 [I'm a relative reference to a repository file](../blob/master/LICENSE)
 
-[You can use numbers for reference-style link definitions][1]
+[You can use numbers for reference-style link definitions](http://slashdot.org)
 
-Or leave it empty and use the [link text itself].
+Or leave it empty and use the [link text itself](http://www.reddit.com).
 
 URLs and URLs in angle brackets will automatically get turned into links.
-<http://www.example.com> or <http://www.example.com> and sometimes
+[http://www.example.com](http://www.example.com) or [http://www.example.com](http://www.example.com) and sometimes
 example.com (but not on Github, for example).
 
 Some text to show that the reference links can follow later.
-
-[arbitrary case-insensitive reference text]: https://www.mozilla.org
-[1]: http://slashdot.org
-[link text itself]: http://www.reddit.com
 
 <hr>
 
@@ -99,10 +95,8 @@ s = "Python syntax highlighting"
 print s
 ```
 
-```
-No language indicated, so no syntax highlighting.
-But let's throw in a <b>tag</b>.
-```
+    No language indicated, so no syntax highlighting.
+    But let's throw in a <b>tag</b>.
 
 <hr>
 
@@ -117,11 +111,11 @@ But let's throw in a <b>tag</b>.
 You can also use raw HTML in your Markdown, and it'll mostly work pretty well.
 
 <dl>
-  <dt>Definition list</dt>
-  <dd>Is something people use sometimes.</dd>
+<dt>Definition list</dt>
+<dd>Is something people use sometimes.</dd>
 
-  <dt>Markdown in HTML</dt>
-  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
+<dt>Markdown in HTML</dt>
+<dd>Does _not_ work **very** well. Use HTML <em>tags</em>.</dd>
 </dl>
 
 <hr>
@@ -130,20 +124,20 @@ You can also use raw HTML in your Markdown, and it'll mostly work pretty well.
 
 Colons can be used to align columns.
 
-| Tables        |      Are      |  Cool |
-| ------------- | :-----------: | ----: |
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      |   centered    |   $12 |
-| zebra stripes |   are neat    |    $1 |
+| Tables | Are | Cool |
+| --- | :---: | ---: |
+| col 3 is | right-aligned | $1600 |
+| col 2 is | centered | $12 |
+| zebra stripes | are neat | $1 |
 
 There must be at least 3 dashes separating each header cell.
 The outer pipes (|) are optional, and you don't need to make the
 raw Markdown line up prettily. You can also use inline Markdown.
 
-| Markdown | Less      | Pretty     |
-| -------- | --------- | ---------- |
-| *Still*  | `renders` | **nicely** |
-| 1        | 2         | 3          |
+| Markdown | Less | Pretty |
+| --- | --- | --- |
+| Still | renders | nicely |
+| 1 | 2 | 3 |
 
 <hr>
 
